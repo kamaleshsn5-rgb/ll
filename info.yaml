@@ -5,16 +5,12 @@ project:
   description:  "Implements a 1-bit half adder"
   language:     "Verilog"
   clock_hz:     0
-
   tiles: "1x1"
-
   top_module:  "tt_um_kamalesh_halfadder"
-
   source_files:
     - "half_adder.v"
 
 pinout:
-  # Inputs
   ui[0]: "A"
   ui[1]: "B"
   ui[2]: ""
@@ -24,7 +20,6 @@ pinout:
   ui[6]: ""
   ui[7]: ""
 
-  # Outputs
   uo[0]: "SUM"
   uo[1]: "CARRY"
   uo[2]: ""
@@ -34,7 +29,6 @@ pinout:
   uo[6]: ""
   uo[7]: ""
 
-  # Bidirectional pins
   uio[0]: ""
   uio[1]: ""
   uio[2]: ""
