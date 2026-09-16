@@ -1,4 +1,4 @@
-module half_adder (
+module tt_um_kamalesh_halfadder(
     input  wire a,
     input  wire b,
     output wire sum,
